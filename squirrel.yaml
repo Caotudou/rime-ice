@@ -29,14 +29,14 @@ show_notifications_when: appropriate
 app_options:
   # com.apple.Spotlight:
   #   ascii_mode: true    # 开启默认英文
-  # com.microsoft.VSCode:
-  #   ascii_mode: false   # 关闭默认英文
+  com.microsoft.VSCode:
+    ascii_mode: true   # 关闭默认英文
 
 
 style:
   # 选择皮肤，亮色与暗色主题
-  color_scheme: purity_of_form_custom
-  color_scheme_dark: purity_of_form_custom
+  color_scheme: google
+  color_scheme_dark: google
 
   # 预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
   text_orientation: horizontal  # horizontal | vertical
