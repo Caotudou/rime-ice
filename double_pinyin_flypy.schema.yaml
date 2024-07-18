@@ -35,13 +35,10 @@ schema:
 switches:
   - name: ascii_mode
     states: [ 中, Ａ ]
-    reset: 1
   - name: ascii_punct  # 中英标点
-    states: [ ¥, $ ]
-    reset: 2
+    states: [ $,¥]
   - name: traditionalization
     states: [ 简, 繁 ]
-    reset: 1
   - name: emoji
     states: [ 💀, 😄 ]
     reset: 1
